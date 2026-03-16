@@ -43,7 +43,7 @@ export default function AboutPage({ toggleOverlay }) {
             For Developers,{" "}
             <b>
               <a
-                href="https://github.com/nantunggaputra/React_Library/issues/5"
+                href="https://github.com/nantunggaputra/anime-app/issues/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -55,22 +55,22 @@ export default function AboutPage({ toggleOverlay }) {
         </div>
         <AboutInfo
           className="title"
-          url="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/README.md"
+          url="https://github.com/nantunggaputra/anime-app/blob/main/README.md"
           textLink="Anime-App"
         />
         <AboutInfo
           className="license"
-          url="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/LICENSE"
+          url="https://github.com/nantunggaputra/anime-app/blob/main/LICENSE"
           textLink="Licensing Information"
         />
         <AboutInfo
           className="rights"
-          url="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/RIGHTS.md"
+          url="https://github.com/nantunggaputra/anime-app/blob/main/RIGHTS.md"
           textLink="End-User Rights"
         />
         <AboutInfo
           className="privacy-policy"
-          url="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/PRIVACY_POLICY.md"
+          url="https://github.com/nantunggaputra/anime-app/blob/main/PRIVACY_POLICY.md"
           textLink="Privacy Policy"
         />
         <div className="trademarks">

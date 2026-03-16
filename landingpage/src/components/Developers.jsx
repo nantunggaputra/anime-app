@@ -221,7 +221,7 @@ function Developers() {
                     ) : (
                       <div className="developer-cta">
                         <a
-                          href="https://github.com/nantunggaputra/React_Library/tree/main/Frontend_React_by_WPU/anime-app"
+                          href="https://github.com/nantunggaputra/anime-app"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
