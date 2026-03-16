@@ -1,6 +1,10 @@
 {
     "rewrites": [
         {
+            "source": "/landingpage/(.*)",
+            "destination": "/landingpage/index.html"
+        },
+        {
             "source": "/(.*)",
             "destination": "/index.html"
         }
