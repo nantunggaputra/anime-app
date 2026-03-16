@@ -1,0 +1,12 @@
+[build]
+  publish = "weeboo"
+
+[[redirects]]
+  from = "/landingpage/*"
+  to = "/landingpage/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
