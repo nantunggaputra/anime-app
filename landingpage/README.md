@@ -2,7 +2,7 @@
 
 ### WeeBoo Landing Page from Anime-App
 
-[WeeBoo | My Anime Landing Page](https://nantunggaputra.github.io/React_Library/Frontend_React_by_WPU/anime-app/weeboo/landingpage) is a Front-End SPA (Single Page Application) subdomain Web project built using [React](https://react.dev/) to introduce and promote the features of the main Anime-App. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. It serves as the landing page to showcase the vision, updates, and functionalities of WeeBoo | My Anime List.
+[WeeBoo | My Anime Landing Page](https://opensource-anime-app.netlify.app/landingpage/) is a Front-End SPA (Single Page Application) subdomain Web project built using [React](https://react.dev/) to introduce and promote the features of the main Anime-App. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. It serves as the landing page to showcase the vision, updates, and functionalities of WeeBoo | My Anime List.
 
 WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.github.io/HTML/), also later dedicated development team under Open Source Contribution.
 
@@ -27,8 +27,8 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
 1.  Clone this repository:
 
     ```bash
-    git clone https://github.com/nantunggaputra/React_Library.git
-    cd Frontend_React_by_WPU/anime-app/landingpage
+    git clone https://github.com/nantunggaputra/anime-app.git
+    cd anime-app/landingpage
     ```
 
     Wee would prefer you not change anything other than the anime-app directory. Thank you.
@@ -53,7 +53,7 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
     pnpm run build
     ```
 
-    The application will build at [localhost:3000/Frontend_React_by_WPU/anime-app/weeboo/landingpage/index.html](http://localhost:3000/Frontend_React_by_WPU/anime-app/weeboo/landingpage/index.html).
+    The application will build at [localhost:3000/weeboo/landingpage/index.html](http://localhost:3000/weeboo/landingpage/index.html).
 
 ## Project Structure
 
@@ -136,4 +136,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ### Contact Information
 
-If you have any questions or suggestions, please contact us at anggunnantunggaputra@gmail.com or send our developer message on [Nantungga Putra | LinkedIn](https://www.linkedin.com/in/nantungga-putra-451779116/) or create an [issue](https://github.com/nantunggaputra/React_Library/issues/) in this repository.
+If you have any questions or suggestions, please contact us at anggunnantunggaputra@gmail.com or send our developer message on [Nantungga Putra | LinkedIn](https://www.linkedin.com/in/nantungga-putra-451779116/) or create an [issue](https://github.com/nantunggaputra/anime-app/issues/) in this repository.

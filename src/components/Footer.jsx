@@ -156,7 +156,7 @@ export default function Footer() {
             <div>
               <p>
                 <a
-                  href="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/README.md"
+                  href="https://github.com/nantunggaputra/anime-app/blob/main/README.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -165,7 +165,7 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/CONTACT.md"
+                  href="https://github.com/nantunggaputra/anime-app/blob/main/CONTACT.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -210,7 +210,7 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/RIGHTS.md"
+                  href="https://github.com/nantunggaputra/anime-app/blob/main/RIGHTS.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -219,7 +219,7 @@ export default function Footer() {
               </p>
               <p>
                 <a
-                  href="https://github.com/nantunggaputra/React_Library/blob/main/Frontend_React_by_WPU/anime-app/PRIVACY_POLICY.md"
+                  href="https://github.com/nantunggaputra/anime-app/blob/main/PRIVACY_POLICY.md"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

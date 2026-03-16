@@ -38,19 +38,19 @@ export default function Header() {
             <a href="./landingpage/" className="landingpage">
               Landing Page
             </a>
-            <a href="./landingpage/" className="landingpage">
+            <a href="./landingpage/updates/#updates" className="landingpage">
               Updates
             </a>
-            <a href="./landingpage/" className="landingpage">
+            <a href="./landingpage/help/#help" className="landingpage">
               Help
             </a>
             <span>{countryCode || "IP"}</span>
           </div>
           <div className="right-menu">
-            <a href="./landingpage/" className="landingpage">
+            <a href="./landingpage/demo/#demo" className="landingpage">
               <button>Login</button>
             </a>
-            <a href="./landingpage/" className="landingpage">
+            <a href="./landingpage/demo/#demo" className="landingpage">
               <button>Sign Up</button>
             </a>
           </div>
