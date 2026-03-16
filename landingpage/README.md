@@ -2,7 +2,7 @@
 
 ### WeeBoo Landing Page from Anime-App
 
-[WeeBoo | My Anime Landing Page](https://opensource-anime-app.netlify.app/landingpage/) is a Front-End SPA (Single Page Application) subdomain Web project built using [React](https://react.dev/) to introduce and promote the features of the main Anime-App. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. It serves as the landing page to showcase the vision, updates, and functionalities of WeeBoo | My Anime List.
+[WeeBoo | My Anime Landing Page](https://opensource-anime-app.vercel.app/landingpage/) is a Front-End SPA (Single Page Application) subdomain Web project built using [React](https://react.dev/) to introduce and promote the features of the main Anime-App. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. It serves as the landing page to showcase the vision, updates, and functionalities of WeeBoo | My Anime List.
 
 WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.github.io/HTML/), also later dedicated development team under Open Source Contribution.
 
@@ -50,7 +50,7 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
 4.  Build the application:
 
     ```bash
-    pnpm run build
+    pnpm run build:landing
     ```
 
     The application will build at [localhost:3000/weeboo/landingpage/index.html](http://localhost:3000/weeboo/landingpage/index.html).

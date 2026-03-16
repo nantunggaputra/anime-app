@@ -9,7 +9,7 @@
 
 ### WeeBoo from Anime-App
 
-[WeeBoo | My Anime List](https://opensource-anime-app.netlify.app/) is a Front-End SPA (Single Page Application) Web project built using [React](https://react.dev/) to display a list of anime. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. Mostly anime data is fetched from the [Jikan - Unofficial MyAnimeList API](https://docs.api.jikan.moe/).
+[WeeBoo | My Anime List](https://opensource-anime-app.vercel.app/) is a Front-End SPA (Single Page Application) Web project built using [React](https://react.dev/) to display a list of anime. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. Mostly anime data is fetched from the [Jikan - Unofficial MyAnimeList API](https://docs.api.jikan.moe/).
 
 WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.github.io/HTML/), also later dedicated development team under Open Source Contribution.
 
@@ -57,7 +57,7 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
 4.  Build the application:
 
     ```bash
-    pnpm run build
+    pnpm run build:all
     ```
 
     The application will build at [localhost:3000/weeboo/index.html](http://localhost:3000/weeboo/index.html).
