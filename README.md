@@ -1,8 +1,15 @@
 # WeeBoo | My Anime List
 
+> **Development Repository**  
+> This is the main development repository for WeeBoo. Contributors welcome!
+> Legacy Repository: [React_Library](https://github.com/nantunggaputra/React_Library/tree/main/Frontend_React_by_WPU/anime-app)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+
 ### WeeBoo from Anime-App
 
-[WeeBoo | My Anime List](https://nantunggaputra.github.io/React_Library/Frontend_React_by_WPU/anime-app/weeboo/) is a Front-End SPA (Single Page Application) Web project built using [React](https://react.dev/) to display a list of anime. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. Mostly anime data is fetched from the [Jikan - Unofficial MyAnimeList API](https://docs.api.jikan.moe/).
+[WeeBoo | My Anime List](https://nantunggaputra-anime-app.vercel.app/) is a Front-End SPA (Single Page Application) Web project built using [React](https://react.dev/) to display a list of anime. This project uses [Vite](https://vitejs.dev/) for bundling and Visual Studio Code as the code editor. Mostly anime data is fetched from the [Jikan - Unofficial MyAnimeList API](https://docs.api.jikan.moe/).
 
 WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.github.io/HTML/), also later dedicated development team under Open Source Contribution.
 
@@ -27,8 +34,8 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
 1.  Clone this repository:
 
     ```bash
-    git clone https://github.com/nantunggaputra/React_Library.git
-    cd Frontend_React_by_WPU/anime-app
+    git clone https://github.com/nantunggaputra/anime-app.git
+    cd anime-app
     ```
 
     Wee would prefer you not change anything other than the anime-app directory. Thank you.
@@ -53,7 +60,7 @@ WeeBoo is designed and developed by [Nantungga Putra](https://nantunggaputra.git
     pnpm run build
     ```
 
-    The application will build at [localhost:3000/Frontend_React_by_WPU/anime-app/weeboo/index.html](http://localhost:3000/Frontend_React_by_WPU/anime-app/weeboo/index.html).
+    The application will build at [localhost:3000/weeboo/index.html](http://localhost:3000/weeboo/index.html).
 
 ## Project Structure
 
@@ -141,4 +148,4 @@ Please read our [End-User Rights](RIGHTS.md) document for important information 
 
 ### Contact Information
 
-If you have any questions or suggestions, please contact us at anggunnantunggaputra@gmail.com or send our developer message on [Nantungga Putra | LinkedIn](https://www.linkedin.com/in/nantungga-putra-451779116/) or create an [issue](https://github.com/nantunggaputra/React_Library/issues/) in this repository.
+If you have any questions or suggestions, please contact us at anggunnantunggaputra@gmail.com or send our developer message on [Nantungga Putra | LinkedIn](https://www.linkedin.com/in/nantungga-putra-451779116/) or create an [issue](https://github.com/nantunggaputra/anime-app/issues/) in this repository.
