@@ -1,7 +1,5 @@
 import { Fade } from "react-awesome-reveal";
 import AnimeByGenre from "./AnimeGenre";
-import AnimeTrailer from "./AnimeTrailer";
-import AnimeNews from "./AnimeNews";
 import Tabloid from "./Tabloid";
 import Channels from "./Channels";
 
@@ -9,8 +7,6 @@ export default function Aside() {
   return (
     <>
       <AnimeByGenre />
-      <AnimeTrailer />
-      <AnimeNews />
       <Tabloid />
       <Channels />
       <figure className="closing">

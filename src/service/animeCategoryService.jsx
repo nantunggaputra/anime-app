@@ -1,23 +1,22 @@
-import { JIKAN_API_BASE_URL } from "../config/apiConfig";
-
 export const fetchAnimeByCategoryData = async (category) => {
-  const urls = {
-    "Season Now": `${JIKAN_API_BASE_URL}/seasons/now?limit=25`,
-    "Top Anime": `${JIKAN_API_BASE_URL}/top/anime?limit=25`,
-    "Top Manga": `${JIKAN_API_BASE_URL}/top/manga?limit=25`,
-    "Top Characters": `${JIKAN_API_BASE_URL}/top/characters?limit=25`,
+  const categoryMap = {
+    "Season Now": "season-now",
+    "Top Anime": "top-anime",
+    "Top Manga": "top-manga",
+    "Top Characters": "top-characters",
   };
 
-  const url = urls[category];
-  if (!url) {
-    throw new Error("Failed to fetch data");
+  const mappedCategory = categoryMap[category];
+  if (!mappedCategory) {
+    throw new Error("Invalid category");
   }
 
-  const response = await fetch(url);
+  const response = await fetch(`/api/anime/category/${mappedCategory}`);
   if (!response.ok) {
-    throw new Error("Failed to fetch data");
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || "Failed to fetch category data");
   }
 
   const data = await response.json();
-  return data.data;
+  return data;
 };

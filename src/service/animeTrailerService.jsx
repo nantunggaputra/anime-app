@@ -1,17 +1,14 @@
-import { JIKAN_API_BASE_URL } from "../config/apiConfig";
-
 export const fetchAnimeTrailerData = async (id) => {
-  const url = `${JIKAN_API_BASE_URL}/anime/${id}`;
-
-  if (!url) {
-    throw new Error("Failed to fetch data");
+  if (!id) {
+    throw new Error("Anime ID is required");
   }
 
-  const response = await fetch(url);
+  const response = await fetch(`/api/anime/${id}`);
   if (!response.ok) {
-    throw new Error("Failed to fetch data");
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || "Failed to fetch anime trailer data");
   }
 
   const data = await response.json();
-  return data.data;
+  return data;
 };
