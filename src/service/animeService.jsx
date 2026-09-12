@@ -1,16 +1,14 @@
-import { JIKAN_API_BASE_URL } from "../config/apiConfig";
-
 export const fetchAnimeData = async (query) => {
-  const url = `${JIKAN_API_BASE_URL}/anime?q=${query}&limit=25`;
-  if (!url) {
-    throw new Error("Failed to fetch data");
+  if (!query) {
+    throw new Error("Search query is required");
   }
 
-  const response = await fetch(url);
+  const response = await fetch(`/api/anime/search?q=${encodeURIComponent(query)}`);
   if (!response.ok) {
-    throw new Error("Failed to fetch data");
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || "Failed to fetch anime data");
   }
 
   const data = await response.json();
-  return data.data;
+  return data;
 };

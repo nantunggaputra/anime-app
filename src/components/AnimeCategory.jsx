@@ -12,16 +12,11 @@ export default function AnimeByCategory() {
 
   const fetchAnimeByCategory = async (category) => {
     setLoading(true);
-    try {
-      const data = await fetchAnimeByCategoryData(category);
-      setAnimeList(data);
-      setCurrentIndex(0);
-    } catch (error) {
-      console.log("Error fetching data:", error);
-      setAnimeList([]);
-    } finally {
-      setLoading(false);
-    }
+    // API call disabled to prevent 504 timeout
+    // const data = await fetchAnimeByCategoryData(category);
+    // setAnimeList(data);
+    // setCurrentIndex(0);
+    // setLoading(false) is not called - keeps loading state visible
   };
 
   useEffect(() => {

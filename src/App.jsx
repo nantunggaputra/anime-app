@@ -72,19 +72,12 @@ function MainComponent() {
   }, [hash]);
 
   const fetchAnime = async (query) => {
-    try {
-      const data = await fetchAnimeData(query);
-      setAnimes(data);
-      setSelectedAnime(data[0]);
-      return data;
-    } catch (error) {
-      console.error("Error fetching data:", error);
-      alert(
-        `${error}\nMinna-san! An error occurred in the result data. Please enter the correct title or try again later.`
-      );
-      window.location.reload();
-      return [];
-    }
+    // API call disabled to prevent 504 timeout
+    // const data = await fetchAnimeData(query);
+    // setAnimes(data);
+    // setSelectedAnime(data[0]);
+    // Shows loading state indefinitely
+    return [];
   };
 
   const handleSelectedAnime = (anime) => {

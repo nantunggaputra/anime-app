@@ -1,14 +1,12 @@
-import { JIKAN_API_BASE_URL } from "../config/apiConfig";
-
 export const fetchGenres = async () => {
-  const url = `${JIKAN_API_BASE_URL}/genres/anime`;
   try {
-    const response = await fetch(url);
+    const response = await fetch("/api/genres/anime");
     if (!response.ok) {
-      throw new Error("Failed to fetch data");
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.error || "Failed to fetch genres");
     }
     const data = await response.json();
-    return data.data;
+    return data;
   } catch (error) {
     console.error("Error fetching data:", error);
     throw error;

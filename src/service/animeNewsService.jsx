@@ -1,17 +1,15 @@
-import { JIKAN_API_BASE_URL } from "../config/apiConfig";
-
 export const fetchAnimeNews = async (animeId) => {
-  const url = `${JIKAN_API_BASE_URL}/anime/${animeId}/news`;
-
   if (!animeId) {
-    throw new Error("Failed to fetch data");
+    throw new Error("Invalid anime ID");
   }
 
-  const response = await fetch(url);
+  const response = await fetch(`/api/anime/news?animeId=${animeId}`);
+
   if (!response.ok) {
-    throw new Error("Failed to fetch data");
+    const errorData = await response.json().catch(() => ({}));
+    throw new Error(errorData.error || "Failed to fetch anime news");
   }
 
   const data = await response.json();
-  return data.data;
+  return data || [];
 };

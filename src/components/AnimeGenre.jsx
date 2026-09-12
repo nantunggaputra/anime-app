@@ -27,15 +27,11 @@ export default function AnimeByGenre() {
   const fetchAnimeByGenre = async (genreId, genreName) => {
     setLoading(true);
     setSelectedGenre(genreName);
-    try {
-      const data = await fetchAnimeByGenreId(genreId);
-      setAnimeList(data);
-      setCurrentIndex(0);
-    } catch (error) {
-      console.error("Error fetching data:", error);
-    } finally {
-      setLoading(false);
-    }
+    // API call disabled to prevent 504 timeout
+    // const data = await fetchAnimeByGenreId(genreId);
+    // setAnimeList(data);
+    // setCurrentIndex(0);
+    // setLoading(false) is not called - keeps loading state visible
   };
 
   const handlePrev = () => {

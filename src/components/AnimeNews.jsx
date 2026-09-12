@@ -59,6 +59,10 @@ export default function AnimeNews() {
             <p style={{ color: "var(--color-background-light)" }}>
               Please wait...
             </p>
+          ) : error ? (
+            <p style={{ color: "var(--color-background-light)" }}>
+              {error.message || "Failed to load news"}
+            </p>
           ) : (
             <ul>
               {news.map((article, index) => (
